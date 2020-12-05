@@ -11,7 +11,7 @@ The building blocks of Tmux are sessions, windows and panes and the Prefix. We w
 
 - run the following command in your shell `tmux new -s privat/tmux`
 - a new window should pop up (don't be concerned about this now), press the *Control and the b* keys together, release them and press the colon (:) key
-- your cursor just jumped to the bottom of the window, enter the text `new-windows` and press enter `? How is the command mode named in Tmux?`
+- your cursor just jumped to the bottom of the window (we just entered something called Command Mode and we will come back to this later), enter the text `new-windows` and press enter
 - in the new window press the *Control and the b* keys together, release them and press the c key
 - start `htop` in the current window
 - in the new window press the *Control and the b* keys together, release them and press the percent (%) key
