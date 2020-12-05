@@ -3,7 +3,7 @@ Tmux is one of the tools I feel that I found too late in my career. It is one of
 
 Simply put, Tmux is a Terminal Mutliplexer. That means it combines multiple terminals and displays those as just one. Which is in the beginning something similiar to a simple split in our terminal of choice but Tmux goes even further than this. Through its nature to be build upon a client <-> server architecture multiple clients can connect to those terminals or the client can detach from the terminal and come back at anytime and the processes are still running.
 
-!(Client-Server Architecture)[client_server_architecture.png]
+![Client-Server Architecture](client_server_architecture.png)
 
 This was for me one huge selling point for Tmux. How often I accidently closed a terminal with an important running process and just killed it through this hasty reaction or the connection dropped while ssh'ing into a server with multiple terminals open to troubleshoot things.
 
