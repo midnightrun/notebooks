@@ -3,7 +3,7 @@
 A collection of notes 📖
 
 ## Tools
-![Tmux](Tmux.md)
+[Tmux](Tmux.md)
 
 ## To-Do List
 - DNS
