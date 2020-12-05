@@ -13,9 +13,12 @@ The building blocks of Tmux are sessions, windows and panes and the Prefix. We w
 - a new window should pop up (don't be concerned about this now), press the *Control and the b* keys together, release them and press the colon (:) key
 - your cursor just jumped to the bottom of the window (we just entered something called Command Mode and we will come back to this later), enter the text `new-windows` and press enter
 - in the new window press the *Control and the b* keys together, release them and press the c key
-- start `htop` in the current window
+- a new window should pop up again, start `htop` in the current window
 - in the new window press the *Control and the b* keys together, release them and press the percent (%) key
-- 
+- press now  *Control and b* keys together, release them and press the o key
+- press now  *Control and b* keys together, release them and press the d key
+- we are now back in our initial terminal, run the following command in your shell `tmux ls`
+- to finish things up, run the following command in you shell `tmux kill-server`
 
 ## Prefix
 When Tmux get started, that means the first session is started, the client can send commands to the server to trigger specific actions. While it is nice to issue commands into Tmux from the outside 
