@@ -1,0 +1,13 @@
+@startuml
+actor TmuxClient1
+node TmuxServer
+TmuxServer <-[bold]- TmuxClient1   : connects to
+TmuxServer <-[bold]- TmuxClient2   : connects to
+TmuxServer <-[bold]- TmuxClient3   : connects to
+TmuxServer <-[bold]- TmuxClient4   : connects to
+TmuxServer <-[bold]- TmuxClient    : connects to
+TmuxServer <-[bold]- TmuxClientN   : connects to
+
+note top of TmuxServer: A Tmux server holds all sessions (which include windows and panes).
+note left of TmuxClient1: A Tmux client connects to the Tmux server specifying the desired session.
+@enduml
