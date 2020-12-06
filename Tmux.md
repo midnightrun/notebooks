@@ -12,7 +12,7 @@ This was for me one huge selling point for Tmux. How often I accidently closed a
 ## Instructions
 
 - run the following command in your shell `tmux new -s privat/tmux`
-- a new window should pop up (don't be concerned about this now), press the *Control and the b* keys together, release them and press the colon (:) key
+- a new window should pop up (don't be concerned about this now), press the **Control and the b** keys together, release them and press the colon (:) key
 - your cursor just jumped to the bottom of the window (we just entered something called *Command Mode* and we will come back to this later), enter the text `new-window` and press enter
 - in the new window press the *Control and the b* keys together, release them and press the c key
 - start `htop` in the current window by typing `htop` command
