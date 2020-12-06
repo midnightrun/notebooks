@@ -8,6 +8,14 @@ TmuxServer <-[bold]- TmuxClient4   : connects to
 TmuxServer <-[bold]- TmuxClient    : connects to
 TmuxServer <-[bold]- TmuxClientN   : connects to
 
-note top of TmuxServer: A Tmux server holds all sessions (which include windows and panes).
-note left of TmuxClient1: A Tmux client connects to the Tmux server specifying the desired session.
+note top of TmuxServer
+Tmux server 
+holds all sessions (which include windows and panes).
+end note
+
+note left of TmuxClient1
+Tmux client
+connects to the Tmux server by 
+specifying the desired session.
+end note
 @enduml
