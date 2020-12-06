@@ -13,14 +13,19 @@ This was for me one huge selling point for Tmux. How often I accidently closed a
 
 - run the following command in your shell `tmux new -s privat/tmux`
 - a new window should pop up (don't be concerned about this now), press the *Control and the b* keys together, release them and press the colon (:) key
-- your cursor just jumped to the bottom of the window (we just entered something called Command Mode and we will come back to this later), enter the text `new-windows` and press enter
+- your cursor just jumped to the bottom of the window (we just entered something called *Command Mode* and we will come back to this later), enter the text `new-window` and press enter
 - in the new window press the *Control and the b* keys together, release them and press the c key
-- a new window should pop up again, start `htop` in the current window
+- start `htop` in the current window by typing `htop` command
 - in the new window press the *Control and the b* keys together, release them and press the percent (%) key
+- on macOS run the following command to see the current system logs `tail -F /var/log/system.log`
 - press now  *Control and b* keys together, release them and press the o key
+- press the q button to close `htop`
 - press now  *Control and b* keys together, release them and press the d key
 - we are now back in our initial terminal, run the following command in your shell `tmux ls`
+- we now see an output mentioning something like **privat/tmux: 3 windows (created ... )**
 - to finish things up, run the following command in you shell `tmux kill-server`
+- run again the `tmux ls` command
+- this time we just get the information that no server is running
 
 ## Prefix
 When Tmux get started, that means the first session is started, the client can send commands to the server to trigger specific actions. While it is nice to issue commands into Tmux from the outside 

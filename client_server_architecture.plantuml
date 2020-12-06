@@ -5,7 +5,7 @@ TmuxServer <-[bold]- TmuxClient1   : connects to
 TmuxServer <-[bold]- TmuxClient2   : connects to
 TmuxServer <-[bold]- TmuxClient3   : connects to
 TmuxServer <-[bold]- TmuxClient4   : connects to
-TmuxServer <-[bold]- TmuxClient    : connects to
+TmuxServer <-[bold]- TmuxClient..    : connects to
 TmuxServer <-[bold]- TmuxClientN   : connects to
 
 note top of TmuxServer
