@@ -27,6 +27,13 @@ This was for me one huge selling point for Tmux. How often I accidently closed a
 - run again the `tmux ls` command
 - this time we just get the information that no server is running
 
+### tmux new -s privat/tmux
+As mentionend Tmux is based on a client <-> server architecture, so in the beginning we need to start the server process. In the intial state there is no server and with the command `tmux new` we are starting it by creating the first session on the system. A session is named collection of terminals. This makes it also possible for other client to connect to the session. Yes, this makes even pair programming possible via Tmux!
+
+After triggering the command we will see the Terminal output changed and suddenly we have a status bar (depending on your configuration it is placed on different localtions, default to bottom of page). We can also see the name of our session here.
+
+So now we have a session called **privat/tmux** containing one window. A window is the displayed Tmux session. Currently we have one window, just with one terminal. Nothing fancy ... so far 😃
+
 ## Prefix
 When Tmux get started, that means the first session is started, the client can send commands to the server to trigger specific actions. While it is nice to issue commands into Tmux from the outside 
 
